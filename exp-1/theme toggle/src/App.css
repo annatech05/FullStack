@@ -1,0 +1,40 @@
+.page {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;   
+  align-items: center;      
+}
+
+.page.light {
+  background-color: white;
+  color: black;
+}
+
+.page.dark {
+  background-color: #222;
+  color: white;
+}
+
+.content {
+  text-align: center;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.page.light button {
+  background-color: black;
+  color: white;
+}
+
+.page.dark button {
+  background-color: white;
+  color: black;
+}
