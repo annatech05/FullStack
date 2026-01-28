@@ -1,0 +1,81 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Page background */
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main container */
+div {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 40px;
+  border-radius: 18px;
+  width: 90%;
+  max-width: 700px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+  text-align: center;
+}
+
+/* Headings */
+h1 {
+  font-size: 2.4rem;
+  margin-bottom: 12px;
+  color: #00e5ff;
+}
+
+h2 {
+  font-size: 1.1rem;
+  margin: 10px 0;
+  font-weight: 400;
+  color: #e0f7fa;
+  line-height: 1.6;
+}
+
+/* Dashboard heading */
+h1 + h2 {
+  margin-top: 20px;
+}
+
+/* Buttons */
+button {
+  margin: 20px 10px 0;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #00e5ff, #00bcd4);
+  color: #00363a;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Button hover */
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 229, 255, 0.4);
+}
+
+/* Links */
+a {
+  text-decoration: none;
+}
+
+/* Marquee text */
+marquee h1 {
+  font-size: 2rem;
+  color: #ffeb3b;
+  margin-bottom: 20px;
+}
