@@ -1,0 +1,52 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Full page height */
+html, body, #root {
+  height: 100%;
+}
+
+/* Perfect centering */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #ff758c, #ff7eb3, #65c7f7, #9cecfb);
+}
+
+/* Square card */
+.card {
+  width: 260px;
+  height: 260px;
+
+  margin-top: 250px;   /* 👈 Ye card ko niche le jayega */
+
+  background: linear-gradient(135deg, #ffffff, #f3f8ff);
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  box-shadow: 0 15px 35px rgba(102, 126, 234, 0.35);
+}
+
+/* Button */
+.card button {
+  margin-top: 15px;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 25px;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+  background: linear-gradient(45deg, #ff512f, #dd2476);
+}

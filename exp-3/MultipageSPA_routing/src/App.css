@@ -1,0 +1,66 @@
+/* Reset + base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+/* Common container style for all pages */
+h1, h2 {
+  text-align: center;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Headings */
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0.8rem;
+  letter-spacing: 2px;
+  color: #ffd369;
+}
+
+h2 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin: 0.4rem 0;
+  color: #eeeeee;
+}
+
+/* Card-like layout */
+.page {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 3rem 4rem;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* Skill list styling */
+.page h2:hover {
+  color: #ffd369;
+  transform: scale(1.05);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+/* Fade animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

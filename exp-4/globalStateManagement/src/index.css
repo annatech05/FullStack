@@ -1,0 +1,21 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Full height */
+html, body, #root {
+  height: 100%;
+}
+
+/* Colorful background + centering */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #ff758c, #ff7eb3, #65c7f7, #9cecfb);
+}
