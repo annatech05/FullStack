@@ -16,7 +16,3 @@ function MaterialUI() {
 );
 }
 export default MaterialUI;
-
-
-
-
